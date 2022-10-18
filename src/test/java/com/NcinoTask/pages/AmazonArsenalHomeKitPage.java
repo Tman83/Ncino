@@ -13,7 +13,7 @@ public class AmazonArsenalHomeKitPage extends AmazonBagePage {
     @FindBy(id = "add-to-cart-button")
     public WebElement addToCartButton;
 
-    public void selectItem(String item){
+    public void selectItem(){
         Driver.getDriver().findElement(By.xpath("//img[@alt='AFC Arsenal London 17/18 Home Kit Replica Shirt']")).click();
     }
 
